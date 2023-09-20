@@ -1,0 +1,14 @@
+/* styles/103-places.css */
+
+/* Example of high contrast for text */
+.place {
+    color: #333; /* Dark text color */
+    background-color: #fff; /* White background */
+}
+/* styles/103-places.css */
+
+/* Add styles for keyboard focus state */
+:focus {
+    outline: 2px solid #0078d4; /* Blue outline */
+}
+

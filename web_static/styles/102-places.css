@@ -1,0 +1,28 @@
+/* styles/102-places.css */
+
+/* Common styles for all screen sizes */
+.places-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.place {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 768px) {
+    .places-container {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .place {
+        margin: 10px 0; /* Add space between stacked items */
+    }
+}
+
